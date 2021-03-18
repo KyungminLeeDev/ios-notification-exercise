@@ -11,8 +11,7 @@
         <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EnterWithNotifications" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GreenViewController" customModule="EnterWithNotifications" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,6 +30,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="nE0-xj-DAk"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1238" y="1117"/>
         </scene>
@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="2148" y="1117"/>
         </scene>
-        <!--View Controller-->
+        <!--Purple View Controller-->
         <scene sceneID="BAI-U0-Vz5">
             <objects>
-                <viewController id="G82-yL-rWt" sceneMemberID="viewController">
+                <viewController id="G82-yL-rWt" customClass="PurpleViewController" customModule="EnterWithNotifications" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mik-mh-z9X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -111,7 +111,7 @@
         <!--Item 1-->
         <scene sceneID="dgy-Lu-zLn">
             <objects>
-                <viewController id="gmp-tN-KAe" sceneMemberID="viewController">
+                <viewController id="gmp-tN-KAe" customClass="OrangeViewController" customModule="EnterWithNotifications" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Wy-Jt-M9u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

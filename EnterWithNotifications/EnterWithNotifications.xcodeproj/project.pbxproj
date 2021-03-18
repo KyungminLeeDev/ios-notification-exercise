@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5635C1D52603232F0087398C /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C1D42603232F0087398C /* OrangeViewController.swift */; };
+		5635C1D8260323750087398C /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635C1D7260323750087398C /* PurpleViewController.swift */; };
 		C781D6362602335200957614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C781D6352602335200957614 /* AppDelegate.swift */; };
 		C781D6382602335200957614 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C781D6372602335200957614 /* SceneDelegate.swift */; };
-		C781D63A2602335200957614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C781D6392602335200957614 /* ViewController.swift */; };
+		C781D63A2602335200957614 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C781D6392602335200957614 /* GreenViewController.swift */; };
 		C781D63D2602335200957614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C781D63B2602335200957614 /* Main.storyboard */; };
 		C781D63F2602335300957614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C781D63E2602335300957614 /* Assets.xcassets */; };
 		C781D6422602335300957614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C781D6402602335300957614 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5635C1D42603232F0087398C /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		5635C1D7260323750087398C /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
 		C781D6322602335200957614 /* EnterWithNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnterWithNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C781D6352602335200957614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C781D6372602335200957614 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C781D6392602335200957614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C781D6392602335200957614 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		C781D63C2602335200957614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C781D63E2602335300957614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C781D6412602335300957614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				C781D6352602335200957614 /* AppDelegate.swift */,
 				C781D6372602335200957614 /* SceneDelegate.swift */,
-				C781D6392602335200957614 /* ViewController.swift */,
+				5635C1D42603232F0087398C /* OrangeViewController.swift */,
+				C781D6392602335200957614 /* GreenViewController.swift */,
+				5635C1D7260323750087398C /* PurpleViewController.swift */,
 				C781D63B2602335200957614 /* Main.storyboard */,
 				C781D63E2602335300957614 /* Assets.xcassets */,
 				C781D6402602335300957614 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C781D63A2602335200957614 /* ViewController.swift in Sources */,
+				5635C1D52603232F0087398C /* OrangeViewController.swift in Sources */,
+				C781D63A2602335200957614 /* GreenViewController.swift in Sources */,
+				5635C1D8260323750087398C /* PurpleViewController.swift in Sources */,
 				C781D6362602335200957614 /* AppDelegate.swift in Sources */,
 				C781D6382602335200957614 /* SceneDelegate.swift in Sources */,
 			);

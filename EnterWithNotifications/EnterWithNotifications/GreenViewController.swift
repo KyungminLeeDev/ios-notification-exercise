@@ -6,7 +6,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

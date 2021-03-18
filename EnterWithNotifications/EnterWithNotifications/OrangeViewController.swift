@@ -17,7 +17,20 @@ class OrangeViewController: UIViewController {
         })
     }
     
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        let content = UNMutableNotificationContent()
+        content.title = "This is title : Jacob"
+        content.subtitle = "This is Subtitle : 노티피케이션 튜토리얼"
+        content.body = "This is body : 바디다바디바"
+        content.badge = 1
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        
+        let request = UNNotificationRequest(identifier: "timerdone", content: content, trigger: trigger)
+        
+        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -115,6 +115,16 @@
                     <view key="view" contentMode="scaleToFill" id="2Wy-Jt-M9u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bz-dC-8kG">
+                                <rect key="frame" x="154" y="207" width="107" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="누르면 Push 알림"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="gmp-tN-KAe" eventType="touchUpInside" id="stz-ME-6jv"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="9e5-kg-VON"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
